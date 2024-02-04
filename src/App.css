@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  text-align: center;
+}
+
+/*.form {
+  padding: 1em;
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr 1fr 1fr 1fr 1fr 1.5fr 1fr;
+  grid-template-areas:
+    "header header"
+    "label input"
+    "label2 input2"
+    "label3 input3"
+    "label4 input4"
+    "button button"
+    "total total";
+  gap: 0.5%;
+}*/
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+label {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+input {
+  width: 50%;
+  box-sizing: border-box;
+  justify-self: flex-start;
+}
+
+#total {
+  width: 100%;
+}
+
+h1 {
+  text-shadow: 0.05em 0.05em 2px rgb(38, 149, 180);
+}
+/*.input_group-label
+{
+  justify-self: end;
+}
+.input_group-input
+{
+  justify-self: start;
+}*/
+
